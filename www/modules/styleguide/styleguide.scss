@@ -4,3 +4,120 @@
 @import "sections/sections.scss";
 @import "layout/layout.scss";
 @import "elements/elements.scss";
+
+
+body {
+	background-color: $primary-color;
+	font-family: $primary-font;
+}
+
+section {
+	border-top: $top-border-light;
+	margin-top: 50px;
+}
+
+hr {
+	border-top: $top-border-light;
+	margin-top: 20px;
+}
+
+/* =============================================================================
+   Style Guide Base Styles
+   ========================================================================== */
+.section-lead {
+	background-color: #f7f7f7;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* =============================================================================
+   Colors
+   ========================================================================== */
+
+.sg-color {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-right: 20px;
+	float: left;
+}
+
+.brand-swatch-1 {
+	@extend .sg-color;
+	background-color: $brand-color-1;
+}
+
+.brand-swatch-2 {
+	@extend .sg-color;
+	background-color: $brand-color-2;
+}
+
+.brand-swatch-3 {
+	@extend .sg-color;
+	background-color: $brand-color-3;
+}
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+
+/* =============================================================================
+   Buttons & Links
+   ========================================================================== */
+
+a {
+	color: $link-color;
+}
+
+a:hover {
+	color: $link-hover-color;
+}
+
+.btn {
+	background-color: $brand-color-3;
+	border-radius: 5px;
+	padding:10px;
+	border: none;
+}
+
+.btn:hover {
+	background-color:  $brand-color-2;
+}
+
+.btn-primary,
+.btn-default {
+	background-color: $brand-color-1;
+}
+
+input {
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/* =============================================================================
+   Alerts
+   ========================================================================== */
+
+.alert {
+	padding: 20px;
+	border-radius: 4px;
+	border: 1px solid #ededed;
+}
+.alert-error {
+	background-color: $error;
+}
+
+.alert-success {
+	background-color: $success;
+}
+
+
+
+
+
+

@@ -7,3 +7,45 @@ $layout-bp-sm-min: 480 !default;
 $layout-bp-md-min: 768 !default;
 $layout-bp-lg-min: 1024 !default;
 $layout-bp-xl-min: 1200 !default;
+
+
+/* =============================================================================
+ Typography
+   ========================================================================== */
+
+$primary-font: 'ProximaNovaLight', Helvetica, sans-serif;
+
+/* =============================================================================
+   Colors
+   ========================================================================== */
+$primary-color:				#ffffff;
+$gray-dark:                 #373a3c;
+$gray:                      #55595c;
+$gray-light:                #818a91;
+$gray-lighter:              darken($gray, 15%);;
+$gray-lightest:             #f7f7f9;
+
+$brand-primary:             #3344BD;
+$brand-color-1:             #ededed;
+$brand-color-2:				#666666;
+$brand-color-3:				#999999;
+
+/* =============================================================================
+   Alert
+   ========================================================================== */
+
+$error:             		#B92D2D;
+$success:             		#5cb85c;
+$info:                		#5bc0de;
+$warning:             		#f0ad4e;
+$danger:              		#d9534f;
+
+
+$link-color:                 $brand-primary;
+$link-decoration:            none;
+$link-hover-color:           darken($link-color, 15%);
+$link-hover-decoration:      underline;
+
+$top-border-light: 1px solid #ededed;
+
+
